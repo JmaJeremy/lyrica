@@ -1,10 +1,17 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
 - title: Getting Started
   url: "/getting-started/"
   side: left
+
+- title: "Concerts"
+  url: "/concerts/"
+  side: left
+  dropdown:
+  - title: "Ola Gjeilo - Spring 2025"
+    url: "/concerts/ola-gjeilo/"
 
 - title: "Templates"
   url: "/design/"
@@ -49,26 +56,6 @@
     url: "/design/no-header/"
   - title: "No Header but Image"
     url: "/design/no-header-but-image/"
-
-- title: Documentation
-  url: "/documentation/"
-  side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
-
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
-
-- title: "Search"
-  url: "/search/"
-  side: right
 
 - title: "Contact"
   url: "/contact/"
